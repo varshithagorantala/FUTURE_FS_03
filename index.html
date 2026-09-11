@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Vastra Boutique - Discover elegant sarees, ethnic wear and designer dresses in Hyderabad.">
+
+    <title>Vastra Boutique | Elegance in Every Thread</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                <span>V</span> Vastra
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#collections">Collections</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#offers">Offers</a>
+                </li>
+
+                <li>
+                    <a href="#reviews">Reviews</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+            <button class="cart-button" id="cartButton">
+                🛍️ <span id="cartCount">0</span>
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    WELCOME TO VASTRA
+                </p>
+
+                <h1>
+                    Elegance in<br>
+                    Every Thread
+                </h1>
+
+                <p class="hero-text">
+                    Discover timeless ethnic wear and contemporary
+                    fashion designed to make every occasion special.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#collections" class="btn btn-primary">
+                        Explore Collection
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Visit Our Store
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="features">
+
+            <div class="feature-card">
+
+                <div class="feature-icon">✨</div>
+
+                <div>
+                    <h3>Premium Quality</h3>
+                    <p>Carefully selected fabrics</p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">💎</div>
+
+                <div>
+                    <h3>Unique Designs</h3>
+                    <p>Styles for every occasion</p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">🤝</div>
+
+                <div>
+                    <h3>Personal Service</h3>
+                    <p>Fashion guidance you can trust</p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">💬</div>
+
+                <div>
+                    <h3>Easy Ordering</h3>
+                    <p>Connect with us on WhatsApp</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COLLECTIONS ================= -->
+
+        <section class="section collections-section" id="collections">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    OUR COLLECTION
+                </p>
+
+                <h2>
+                    Find Your Perfect Style
+                </h2>
+
+                <p>
+                    From traditional elegance to modern fashion,
+                    discover something that feels uniquely you.
+                </p>
+
+            </div>
+
+
+            <!-- Search and filter -->
+
+            <div class="shop-controls">
+
+                <div class="search-box">
+
+                    <input
+                        type="search"
+                        id="searchInput"
+                        placeholder="Search collections..."
+                        aria-label="Search products"
+                    >
+
+                    <span>🔍</span>
+
+                </div>
+
+
+                <div class="filter-buttons">
+
+                    <button class="filter-btn active" data-category="all">
+                        All
+                    </button>
+
+                    <button class="filter-btn" data-category="sarees">
+                        Sarees
+                    </button>
+
+                    <button class="filter-btn" data-category="ethnic">
+                        Ethnic Wear
+                    </button>
+
+                    <button class="filter-btn" data-category="dresses">
+                        Dresses
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Products -->
+
+            <div class="products-grid" id="productsGrid">
+
+                <!-- Product 1 -->
+
+                <article
+                    class="product-card"
+                    data-category="sarees"
+                    data-name="Royal Silk Saree"
+                >
+
+                    <div class="product-image image-one">
+
+                        <span class="product-badge">
+                            Bestseller
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add Royal Silk Saree to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Sarees
+                        </p>
+
+                        <h3>
+                            Royal Silk Saree
+                        </h3>
+
+                        <p class="product-description">
+                            Elegant silk saree perfect for festive occasions.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ₹2,499
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-product="Royal Silk Saree"
+                            >
+                                Add to Bag
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 2 -->
+
+                <article
+                    class="product-card"
+                    data-category="sarees"
+                    data-name="Classic Cotton Saree"
+                >
+
+                    <div class="product-image image-two">
+
+                        <span class="product-badge">
+                            New
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add Classic Cotton Saree to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Sarees
+                        </p>
+
+                        <h3>
+                            Classic Cotton Saree
+                        </h3>
+
+                        <p class="product-description">
+                            Comfortable everyday elegance with a traditional touch.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ₹1,799
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-product="Classic Cotton Saree"
+                            >
+                                Add to Bag
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 3 -->
+
+                <article
+                    class="product-card"
+                    data-category="ethnic"
+                    data-name="Festive Anarkali"
+                >
+
+                    <div class="product-image image-three">
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add Festive Anarkali to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Ethnic Wear
+                        </p>
+
+                        <h3>
+                            Festive Anarkali
+                        </h3>
+
+                        <p class="product-description">
+                            Graceful Anarkali designed for celebrations and events.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ₹2,199
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-product="Festive Anarkali"
+                            >
+                                Add to Bag
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 4 -->
+
+                <article
+                    class="product-card"
+                    data-category="ethnic"
+                    data-name="Embroidered Kurta Set"
+                >
+
+                    <div class="product-image image-four">
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add Embroidered Kurta Set to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Ethnic Wear
+                        </p>
+
+                        <h3>
+                            Embroidered Kurta Set
+                        </h3>
+
+                        <p class="product-description">
+                            Stylish embroidered set for a sophisticated look.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ₹1,999
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-product="Embroidered Kurta Set"
+                            >
+                                Add to Bag
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 5 -->
+
+                <article
+                    class="product-card"
+                    data-category="dresses"
+                    data-name="Floral Midi Dress"
+                >
+
+                    <div class="product-image image-five">
+
+                        <span class="product-badge">
+                            Trending
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add Floral Midi Dress to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Dresses
+                        </p>
+
+                        <h3>
+                            Floral Midi Dress
+                        </h3>
+
+                        <p class="product-description">
+                            A modern floral look for casual and special days.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ₹1,599
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-product="Floral Midi Dress"
+                            >
+                                Add to Bag
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 6 -->
+
+                <article
+                    class="product-card"
+                    data-category="dresses"
+                    data-name="Elegant Evening Dress"
+                >
+
+                    <div class="product-image image-six">
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add Elegant Evening Dress to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Dresses
+                        </p>
+
+                        <h3>
+                            Elegant Evening Dress
+                        </h3>
+
+                        <p class="product-description">
+                            A sophisticated silhouette for memorable evenings.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ₹2,299
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-product="Elegant Evening Dress"
+                            >
+                                Add to Bag
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <p class="no-results" id="noResults">
+                No collection found. Try another search.
+            </p>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about-section section" id="about">
+
+            <div class="about-image">
+
+                <div class="about-image-content">
+                    VASTRA
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <p class="eyebrow">
+                    OUR STORY
+                </p>
+
+                <h2>
+                    Tradition Meets Contemporary Style
+                </h2>
+
+                <p>
+                    Vastra Boutique was created for women who believe
+                    fashion should feel personal, elegant and comfortable.
+                </p>
+
+                <p>
+                    We bring together carefully selected traditional
+                    and contemporary designs so you can find the perfect
+                    outfit for festivals, celebrations, work and everyday life.
+                </p>
+
+
+                <div class="about-stats">
+
+                    <div>
+                        <strong>500+</strong>
+                        <span>Happy Customers</span>
+                    </div>
+
+                    <div>
+                        <strong>100+</strong>
+                        <span>Unique Designs</span>
+                    </div>
+
+                    <div>
+                        <strong>5★</strong>
+                        <span>Customer Experience</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WHY CHOOSE US ================= -->
+
+        <section class="section why-section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    WHY VASTRA
+                </p>
+
+                <h2>
+                    Fashion Made Personal
+                </h2>
+
+            </div>
+
+
+            <div class="why-grid">
+
+                <div class="why-card">
+
+                    <div class="why-icon">👗</div>
+
+                    <h3>
+                        Curated Collections
+                    </h3>
+
+                    <p>
+                        Every piece is selected with style,
+                        quality and comfort in mind.
+                    </p>
+
+                </div>
+
+
+                <div class="why-card">
+
+                    <div class="why-icon">💝</div>
+
+                    <h3>
+                        Personal Attention
+                    </h3>
+
+                    <p>
+                        Get friendly styling suggestions based
+                        on your occasion and preferences.
+                    </p>
+
+                </div>
+
+
+                <div class="why-card">
+
+                    <div class="why-icon">🌸</div>
+
+                    <h3>
+                        Quality First
+                    </h3>
+
+                    <p>
+                        We focus on fabrics and designs that
+                        make you feel confident.
+                    </p>
+
+                </div>
+
+
+                <div class="why-card">
+
+                    <div class="why-icon">📱</div>
+
+                    <h3>
+                        Easy Communication
+                    </h3>
+
+                    <p>
+                        Message us directly to ask questions
+                        or enquire about an outfit.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= OFFER ================= -->
+
+        <section class="offer-section" id="offers">
+
+            <div class="offer-content">
+
+                <p class="eyebrow">
+                    SPECIAL OFFER
+                </p>
+
+                <h2>
+                    Festive Season Collection
+                </h2>
+
+                <p>
+                    Get <strong>15% OFF</strong> on selected festive
+                    collections. Visit our boutique or message us
+                    to know more.
+                </p>
+
+                <a href="#contact" class="btn btn-primary">
+                    Enquire Now
+                </a>
+
+            </div>
+            </section>
+            <section class="section gallery-section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    STYLE GALLERY
+                </p>
+
+                <h2>
+                    A Glimpse of Vastra
+                </h2>
+
+                <p>
+                    Explore the elegance, colours and style behind our collection.
+                </p>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item gallery-one">
+                    <span>Festive</span>
+                </div>
+
+                <div class="gallery-item gallery-two">
+                    <span>Traditional</span>
+                </div>
+
+                <div class="gallery-item gallery-three">
+                    <span>Elegant</span>
+                </div>
+
+                <div class="gallery-item gallery-four">
+                    <span>Contemporary</span>
+                </div>
+
+                <div class="gallery-item gallery-five">
+                    <span>Celebration</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= REVIEWS ================= -->
+
+        <section class="section reviews-section" id="reviews">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    CUSTOMER LOVE
+                </p>
+
+                <h2>
+                    What Our Customers Say
+                </h2>
+
+            </div>
+
+
+            <div class="reviews-grid">
+
+                <article class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “The collection is beautiful and the quality
+                        exceeded my expectations. I found the perfect
+                        saree for my sister's wedding.”
+                    </p>
+
+                    <h3>
+                        Priya R.
+                    </h3>
+
+                    <span>
+                        Hyderabad
+                    </span>
+
+                </article>
+
+
+                <article class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “I loved the modern designs. The staff were
+                        very helpful in choosing an outfit for a
+                        family function.”
+                    </p>
+
+                    <h3>
+                        Ananya K.
+                    </h3>
+
+                    <span>
+                        Hyderabad
+                    </span>
+
+                </article>
+
+
+                <article class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “Beautiful clothes, reasonable prices and
+                        a very friendly experience. Definitely coming
+                        back again.”
+                    </p>
+
+                    <h3>
+                        Sneha M.
+                    </h3>
+
+                    <span>
+                        Hyderabad
+                    </span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact-section section" id="contact">
+
+            <div class="contact-info">
+
+                <p class="eyebrow">
+                    GET IN TOUCH
+                </p>
+
+                <h2>
+                    Visit Vastra Boutique
+                </h2>
+
+                <p>
+                    Looking for the perfect outfit?
+                    Visit us or send an enquiry.
+                </p>
+
+
+                <div class="contact-details">
+
+                    <div class="contact-detail">
+
+                        <span>📍</span>
+
+                        <div>
+                            <strong>Location</strong>
+                            <p>Hyderabad, Telangana</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-detail">
+
+                        <span>📞</span>
+
+                        <div>
+                            <strong>Phone</strong>
+                            <p>+91 98765 43210</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-detail">
+
+                        <span>✉️</span>
+
+                        <div>
+                            <strong>Email</strong>
+                            <p>hello@vastraboutique.com</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-detail">
+
+                        <span>🕒</span>
+
+                        <div>
+                            <strong>Opening Hours</strong>
+                            <p>10:00 AM – 8:00 PM</p>
+                        </div>
+
+                    </div>
+                    <a
+                    href="https://wa.me/919876543210?text=Hello%20Vastra%20Boutique,%20I%20would%20like%20to%20know%20more%20about%20your%20collection."
+                    target="_blank"
+                    class="whatsapp-btn"
+                >
+                    💬 Chat on WhatsApp
+                </a>
+
+            </div>
+
+
+            <!-- Contact form -->
+
+            <div class="contact-form-container">
+
+                <h3>
+                    Send an Enquiry
+                </h3>
+
+                <p>
+                    Fill in your details and we'll get back to you.
+                </p>
+
+
+                <form id="contactForm">
+
+                    <div class="form-group">
+
+                        <label for="customerName">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="customerName"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="customerEmail">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="customerEmail"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="customerPhone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="customerPhone"
+                            placeholder="Enter your phone number"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="customerMessage">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="customerMessage"
+                            rows="5"
+                            placeholder="Tell us what you're looking for..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary form-submit"
+                    >
+                        Send Enquiry
+                    </button>
+
+                </form>
+
+                <p
+                    class="form-message"
+                    id="formMessage"
+                ></p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= CART MODAL ================= -->
+
+    <div class="modal" id="cartModal">
+
+        <div class="modal-content">
+
+            <button
+                class="modal-close"
+                id="closeCart"
+                aria-label="Close cart"
+            >
+                ×
+            </button>
+
+            <h2>
+                Your Bag
+            </h2>
+
+            <div id="cartItems">
+                <p class="empty-cart">
+                    Your bag is empty.
+                </p>
+            </div>
+
+            <div class="cart-footer">
+
+                <strong>
+                    Items: <span id="cartTotal">0</span>
+                </strong>
+
+                <a
+                    href="https://wa.me/919876543210"
+                    target="_blank"
+                    class="btn btn-primary"
+                >
+                    Enquire on WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= TOAST ================= -->
+
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+    >
+        Added to your bag!
+    </div>
+
+
+    <!-- ================= BACK TO TOP ================= -->
+
+    <button
+        class="back-to-top"
+        id="backToTop"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo footer-logo">
+                    <span>V</span> Vastra
+                </a>
+
+                <p>
+                    Elegance in every thread.
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="Instagram">
+                        Instagram
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        Facebook
+                    </a>
+
+                    <a href="#" aria-label="Pinterest">
+                        Pinterest
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="#home">Home</a>
+                <a href="#collections">Collections</a>
+                <a href="#about">About</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>
+                    Collections
+                </h3>
+
+                <a href="#collections">Sarees</a>
+                <a href="#collections">Ethnic Wear</a>
+                <a href="#collections">Dresses</a>
+                <a href="#offers">Special Offers</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>
+                    Contact
+                </h3>
+
+                <p>
+                    Hyderabad, Telangana
+                </p>
+
+                <p>
+                    +91 98765 43210
+                </p>
+
+                <p>
+                    hello@vastraboutique.com
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Vastra Boutique. All Rights Reserved.
+            </p>
+
+            <p>
+                Designed for a better shopping experience.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
